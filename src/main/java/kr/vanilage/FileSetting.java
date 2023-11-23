@@ -49,7 +49,7 @@ public class FileSetting {
 
     private static void settingEula(String downloadDir) {
         try {
-            File file = new File(downloadDir + "\\eula.txt");
+            File file = new File(downloadDir + "/eula.txt");
             file.createNewFile();
 
             PrintWriter pw = new PrintWriter(file);
