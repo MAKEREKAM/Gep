@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "kr.vanilage"
-version = "1.0-Windows"
+version = "1.0-Linux"
 
 repositories {
     mavenCentral()

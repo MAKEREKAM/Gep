@@ -31,7 +31,7 @@ public class FileSetting {
 
     private static void settingServerStarter(String downloadDir, int memory, boolean nogui) {
         try {
-            File file = new File(downloadDir + "\\run.bat");
+            File file = new File(downloadDir + "/run.sh");
             file.createNewFile();
 
             PrintWriter pw = new PrintWriter(file);
